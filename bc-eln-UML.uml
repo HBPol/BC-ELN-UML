@@ -277,10 +277,7 @@
     <packagedElement xmi:type="uml:Actor" xmi:id="_AJbxoNxlEeifqJ_g3ERO_A" name="Lab manager">
       <generalization xmi:type="uml:Generalization" xmi:id="_Y0drgNxmEeifqJ_g3ERO_A" general="_-mTK8NxkEeifqJ_g3ERO_A"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_hfD5kNxlEeifqJ_g3ERO_A" name="Administrator"/>
     <packagedElement xmi:type="uml:Actor" xmi:id="_i1ObQNxlEeifqJ_g3ERO_A" name="Auditor"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_gWLJcNxmEeifqJ_g3ERO_A" name="Manage users"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_k-CFYNxmEeifqJ_g3ERO_A" name="manages"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_rzln8NxmEeifqJ_g3ERO_A" name="Manage instruments">
       <generalization xmi:type="uml:Generalization" xmi:id="_4JE98NxmEeifqJ_g3ERO_A" general="_zmyegNxmEeifqJ_g3ERO_A"/>
     </packagedElement>
@@ -290,6 +287,21 @@
     <packagedElement xmi:type="uml:UseCase" xmi:id="_zmyegNxmEeifqJ_g3ERO_A" name="Manage lab resources" isAbstract="true"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_9UX-INxmEeifqJ_g3ERO_A" name="Manage lab protocols"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_fiUt0NxqEeifqJ_g3ERO_A" name="Approve analysis"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_kZLuENx1EeifqJ_g3ERO_A" name="Perform analysis"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_pY3UINx1EeifqJ_g3ERO_A" name="Request analysis"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_wsAxoNx1EeifqJ_g3ERO_A" name="User management">
+      <packagedElement xmi:type="uml:Actor" xmi:id="_LPkI0Nx2EeifqJ_g3ERO_A" name="Administrator"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_O1K9kNx2EeifqJ_g3ERO_A" name="Manage users"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_S-6aINx2EeifqJ_g3ERO_A" name="manages"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ib2pQNx2EeifqJ_g3ERO_A" name="e-sign"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_62i2gNx2EeifqJ_g3ERO_A" name="Archive analysis"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_DhkF4Nx3EeifqJ_g3ERO_A" name="Authorise auditor"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_InxKsNx3EeifqJ_g3ERO_A" name="Inspect analysis"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_OKdXMNx3EeifqJ_g3ERO_A" name="Inspect audit trail">
+      <extend xmi:type="uml:Extend" xmi:id="_bwGtgNx3EeifqJ_g3ERO_A" extendedCase="_InxKsNx3EeifqJ_g3ERO_A"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_Zn8uMNx3EeifqJ_g3ERO_A" client="_InxKsNx3EeifqJ_g3ERO_A" supplier="_62i2gNx2EeifqJ_g3ERO_A"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_IIW3cMqHEeiO7cbDKPRNqw" name="DeploymentDiagramElements"/>
   <packagedElement xmi:type="uml:Device" xmi:id="_hIpsIMqHEeiO7cbDKPRNqw" name="Web server"/>
